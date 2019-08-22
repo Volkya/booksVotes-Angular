@@ -1,0 +1,16 @@
+<div class="col-md-6">
+    <div class="card text-center">
+        <div class="card-header">
+            {{book.title}}
+        </div>
+        <div class="card-body">
+            IMAGEN
+            {{book.description}}
+        </div>
+        <div class="card-footer">
+            {{book.votes}}
+            <button type="button" class="btn btn-success" (click)="book.voteUp()">UP</button>
+            <button type="button" class="btn btn-danger" (click)="book.voteDown()">DOWN</button>
+        </div>
+    </div>
+</div>
