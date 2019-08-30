@@ -1,25 +1,29 @@
 // Properties
 
 export class Book { // export class to app component
-    title: String;
-    description: String;
+    title: string;
+    author: string;
+    editorial: string;
+    description: string;
     votes: number;
 
-// Construct 
+// Construct
 
-    constructor(title: string, description: string, votes?: number){
-        this.title=title;
-        this.description=description;
-        this.votes=votes || 0;
+    constructor(title: string, author: string, editorial: string, description: string, votes?: number) {
+        this.title = title;
+        this.author = author;
+        this.editorial = editorial;
+        this.description = description;
+        this.votes = votes || 0;
     }
 
     // method up and down vote
 
-    voteUp(){
+    voteUp() {
         this.votes++;
     }
 
-    voteDown(){
+    voteDown() {
         this.votes--;
     }
 
