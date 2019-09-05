@@ -1,3 +1,13 @@
+# Trend books
+
+Check the most voted books in this app! of course, add if you have any recommendation
+
+![](docs/screenshot.png)
+
+# Future updates
+
+Add book cover image field
+
 # BooksVotes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
